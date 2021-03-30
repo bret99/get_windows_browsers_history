@@ -5,6 +5,6 @@ Also one needs sqlite3.exe as a pre-requisite. One may execute the next commands
 2. powershell -c "Expand-Archive -Force C:\sqlite3.zip C:\sqlite3"
 3. del /Q C:\sqlite3.zip
 4. mv C:\sqlite3\sqlite-tools-win32-x86-3350300\sqlite3.exe \path_you_like
-5. rmdir /Q /S C:\sqlite3
+5. rmdir C:\sqlite3
 
 Tested on Windows 10 and last date browsers.
