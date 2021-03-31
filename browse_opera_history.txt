@@ -1,4 +1,4 @@
-1. xcopy.exe C:\sqlite3.exe "\\TARGET\c$" (local machine)
+1. xcopy.exe C:\path_to\sqlite3.exe "\\TARGET\c$" (local machine)
 2. PsExec64.exe cmd \\TARGET (local machine)
 3. cd C:\ (remote machine)
 4. dir Users (remote machine)
