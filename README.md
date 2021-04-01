@@ -4,7 +4,7 @@ Also one needs sqlite3.exe as a pre-requisite. One may execute the next commands
 1. powershell -c "Invoke-WebRequest -Uri 'https://sqlite.org/2021/sqlite-tools-win32-x86-3350300.zip' -OutFile 'c:\sqlite3.zip'"
 2. powershell -c "Expand-Archive -Force C:\sqlite3.zip C:\sqlite3"
 3. del /Q C:\sqlite3.zip
-4. mv C:\sqlite3\sqlite-tools-win32-x86-3350300\sqlite3.exe \path_you_like (add \path_you_like to $PATH)
+4. mv C:\sqlite3\sqlite-tools-win32-x86-3350300\sqlite3.exe \path_one_like (add \path_one_like to $PATH)
 5. rmdir C:\sqlite3
 
 Tested on Windows 10 and last date browsers.
